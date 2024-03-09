@@ -1,32 +1,29 @@
-/* Sidebar.css */
 .Sidebar {
-    width: 250px;
-    background-color: #2c3e50;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  .Sidebar h2 {
-    margin-bottom: 20px;
-    color: #fff;
-  }
-  
-  .Sidebar ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .Sidebar li {
-    cursor: pointer;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    background-color: #34495e;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .Sidebar li:hover {
-    background-color: #2c3e50;
-  }
-  
-  
+  width: 250px;
+  background: linear-gradient(to bottom right, #64b5f6, #4db6ac); /* Blue to Teal gradient */
+  color: #fff;
+  padding: 20px;
+}
+
+.Sidebar h2 {
+  margin-bottom: 20px;
+  color: #fff; /* Text color */
+}
+
+.Sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Sidebar li {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #64b5f6; /* Light Blue */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.Sidebar li:hover {
+  background-color: #4db6ac; /* Teal */
+}

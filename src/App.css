@@ -1,5 +1,7 @@
+/* App.css */
 .App {
   display: flex;
   font-family: Arial, sans-serif;
   height: 100vh;
+  background: linear-gradient(to bottom right, #64b5f6, #4db6ac); /* Blue to Teal gradient */
 }
