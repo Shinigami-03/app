@@ -1,6 +1,6 @@
 .Sidebar {
   width: 250px;
-  background: linear-gradient(to bottom right, #64b5f6, #4db6ac); /* Blue to Teal gradient */
+  background: linear-gradient(to bottom right, #64b5f6, #0088ff); /* Blue to Teal gradient */
   color: #fff;
   padding: 20px;
 }
@@ -25,5 +25,5 @@
 }
 
 .Sidebar li:hover {
-  background-color: #4db6ac; /* Teal */
+  background-color: #00e5fff7; 
 }

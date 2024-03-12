@@ -29,7 +29,7 @@
 }
 
 .Message.Sent {
-  background-color: #4CAF50; /* Green */
+  background-color: #008cff; /* Green */
   max-width: fit-content;
 }
 
