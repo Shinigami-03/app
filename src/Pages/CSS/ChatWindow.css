@@ -25,14 +25,17 @@
   margin-bottom: 10px;
   border-radius: 15px; /* Rounded message bubbles */
   color: #fff; /* Text color */
+  margin-left: auto;
 }
 
 .Message.Sent {
   background-color: #4CAF50; /* Green */
+  max-width: fit-content;
 }
 
 .Message.Received {
   background-color: #2196F3; /* Blue */
+  max-width: fit-content; 
 }
 
 .MessageContainer {
